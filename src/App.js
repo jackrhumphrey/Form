@@ -72,6 +72,7 @@ function App() {
             }
           />
           <Form.Input
+            type='password'
             label="Password"
             value={formState.password}
             error={errors.password}
